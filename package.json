@@ -1,0 +1,31 @@
+{
+  "name": "okhack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "run.coffee",
+  "dependencies": {
+    "child-process-promise": "^2.0.2",
+    "clusterfck": "^0.5.2",
+    "jquery": "^2.1.0",
+    "lodash": "^4.13.1",
+    "mongodb": "^1.3.23",
+    "mongoskin": "^1.3.20-alpha",
+    "request": "^2.34.0",
+    "underscore": "^1.5.2",
+    "xml2js": "^0.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/wefarrell/okhack.git"
+  },
+  "author": "will farrell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wefarrell/okhack/issues"
+  },
+  "homepage": "https://github.com/wefarrell/okhack#readme"
+}
