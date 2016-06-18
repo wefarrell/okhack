@@ -53,7 +53,7 @@ class BotMaker extends OkCupid
     solveCapcha.call(this,capchaFile, (capcha)=>
       @fill('form#signup_form',
         screenname: screenName
-        password: 'sailing',
+        password: 'botpassword',
         recaptcha_response_field: capcha
       )
       @click('button[type=submit].flatbutton.okblue')
